@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="shortcut icon" href="../../images/logo.png">
+    <link rel="stylesheet" href="../css/formstyles.css">
+</head>
+
+<body>
+
+    <header>
+
+        <img src="../../images/logo.png" alt="Our Logo">
+    </header>
+
+    <!-- form section -->
+
+    <div id="formSection">
+
+        <form action="buyer.html" method="post">
+
+            <div id="username" class="labelContainer">
+
+                <label>USERNAME</label> <br>
+
+                <div class="inputBorder">
+
+                    <i class="fa fa-user-circle-o push"></i>
+                    <input type="text" id="username" name="username" placeholder="eg. JohnDoe" autofocus autocomplete>
+
+                </div>
+
+            </div>
+
+            <div id="password" class="labelContainer">
+
+                <label>PASSWORD</label>
+
+                <div class="inputBorder">
+
+                    <i class="fa fa-lock push"></i>
+                    <input type="password" id="password" name="password" placeholder="eg. 123456" minlength="6" autocomplete>
+                    <i class="fa fa-eye" onclick="showPassword()" id="eyeControl" style="color:rgb(255, 0, 0);"></i>
+
+                </div>
+
+            </div>
+
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+
+        </form>
+    </div>
+
+
+    <!-- JAVASCRIPT FILE -->
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
